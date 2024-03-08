@@ -1,34 +1,202 @@
 header {
     width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
 
     // example
 
-    .nav {
-        display: flex;
-        height: 70px;
-        align-items: center;
-        justify-content: space-between;
+    .navbar {
+        
+       &--top{
+          display: flex;
+          align-items: center;
+          gap: 30px;
 
-        &__logo {
-            font-style: 24px;
-            cursor: pointer;
-        }
+          &--menu{
+            display: none;
+          }
+          
+          &--searchwrap{
+            width: 424px;
+            height: 52px;
+            border-radius: 10px;
+            background:  $bg-serch;
+            position: relative;
 
-        &__list {
-            display: flex;
-            gap: 50px;
-            list-style-type: none;
-
-            &--item {
-                text-transform: uppercase;
-
-                &-link {
-                    text-decoration: none;
-                    &:hover{
-                        color:red;
-                    }
-                }
+            input{
+                 width: 100%;
+                 height: 100%;
+                 padding: 14px 40px 14px 20px;
+                 border-radius: 10px;
+                 background: transparent;
+                 border: none;
+                 outline: none;
             }
+
+            img{
+                position: absolute;
+                top: 14px;
+                right: 20px;
+            }
+          }
+
+          &--toglmenu{
+            @extend %buttonStyle;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+
+            span{
+                display: block;
+            }
+
+            &:hover{
+                background: $btn-hover;
+                transition: all .2s linear;
+            }
+
+            &:active{
+                background: $green-color;
+                transition: all .2s linear;
+            }
+          }
+          
+
+          &--title{
+            display: flex;
+            flex-direction: column;
+
+
+            h2{
+                color: $text-color;
+                font-family: "Open Sans";
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            p{
+                color: $text-color2;
+                font-family: "Open Sans";
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+          }
+
+          &--icons{
+            display: none;
+          }
+       }
+
+
+    }
+}
+
+@media screen and  (max-width: 770px){
+    header {
+        width: 100%;
+        padding-top: 30px;
+    
+        // example
+    
+        .navbar {
+            
+           &--top{
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+    
+              &--menu{
+                display: block;
+                border: none;
+                background: transparent;
+                cursor: pointer;
+              }
+              
+              &--searchwrap{
+                display: block;
+              }
+    
+              &--toglmenu{
+                display: none;
+              }
+              
+    
+              &--title{
+                display: none;
+              }
+    
+              &--icons{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+
+                
+              }
+           }
+    
+    
         }
     }
+}
+@media screen and  (max-width: 577px){
+    header {
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid $border-color;
+
+    
+        // example
+    
+        .navbar {
+            
+           &--top{
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+    
+              &--menu{
+                display: block;
+                border: none;
+                background: transparent;
+                cursor: pointer;
+              }
+              
+              &--searchwrap{
+                display: none;
+              }
+    
+              &--toglmenu{
+                display: none;
+              }
+              
+    
+              &--title{
+                display: none;
+              }
+    
+              &--icons{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+
+                
+              }
+           }
+    
+    
+        }
+    }
+}
+@media screen and  (max-width: 376px){
+      
 }

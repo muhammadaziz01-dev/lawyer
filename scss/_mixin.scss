@@ -1,9 +1,11 @@
 // mixins for
 
-@mixin mixinName($bg, $color){
-  background: $bg;
-  color:$color;
-}
+// @mixin button($bg, $color , $py ,$px , $br){
+//   background: $bg;
+//   color:$color;
+//   padding:  $py $px;
+//   background-repeat: $br;
+// }
 
 
 // @include mixinName(red, white) // call to mixin

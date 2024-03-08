@@ -1,0 +1,255 @@
+#intro{
+  width: 100%;
+  padding-bottom: 40px;
+  position: relative;
+  .intro--top{
+    display: flex;
+    align-items: center;
+    gap: 51px;
+
+    &--btn{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        button{
+            @extend %buttonStyle;
+            border: 1px solid $border-color;
+            background: transparent;
+            color: $text-color;
+            display: flex;
+            align-content: center;
+            gap: 10px;
+
+            &:hover{
+                border: 1px solid transparent;
+                background: $border-color;
+                color: #FFF;
+                transition: all .2s linear; 
+            }
+
+            &:active{
+                border: 1px solid $border-color;
+                background: transparent;
+                color: $text-color;
+                transition: all .2s linear; 
+            }
+        }
+    }
+
+    &--list{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        li{
+            color: $text-color;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+    }
+
+    &--enter{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        
+        span{
+            color: $text-color;
+            font-family: "Open Sans";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+    }
+
+  }
+  
+  // ---------Toggle menu---
+
+  .toggl-menu{
+     background: #FFF;
+     border-radius: 10px;
+     border: 1px solid $border-color;
+     display: inline-block;
+     max-width: 550px;
+     min-width: 250px;
+     position: absolute;
+     top: -20px;
+     display: none;
+
+     &--list{
+        display: flex;
+        flex-direction: column;
+
+        li{
+            width: 100%;
+            padding: 10px 0px;
+            text-align: center;
+            cursor: pointer;
+            &:hover{
+                background: $border-color;
+            }
+        }
+        li:nth-child(1){
+            border-radius: 10px 10px 0px 0px;
+        }
+        li:nth-child(5){
+            border-radius: 0px 0px 10px 10px ;
+        }
+
+        li:nth-child(6){
+            display: none;
+        }
+        li:nth-child(7){
+            display: none;
+        }
+        li:nth-child(8){
+            display: none;
+        }
+     }
+  }
+
+  .toggl-open{
+    display: block !important;
+  }
+
+
+}
+
+
+//---RESPONSIV-------------------
+
+@media screen and  (max-width: 770px){
+
+    #intro{
+        padding-top: 20px;
+        .intro--top{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+      
+          &--btn{
+              display: flex;
+              align-items: center;
+              gap: 15px;
+      
+              button{
+                  @extend %buttonStyle;
+                  border: 1px solid $border-color;
+                  background: transparent;
+                  color: $text-color;
+                  display: flex;
+                  align-content: center;
+                  gap: 10px;
+      
+                  &:hover{
+                      border: 1px solid transparent;
+                      background: $border-color;
+                      color: #FFF;
+                      transition: all .2s linear; 
+                  }
+      
+                  &:active{
+                      border: 1px solid $border-color;
+                      background: transparent;
+                      color: $text-color;
+                      transition: all .2s linear; 
+                  }
+              }
+          }
+      
+          &--list{
+              display: none;
+      
+          }
+      
+          &--enter{
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              
+              span{
+                  color: $text-color;
+                  font-family: "Open Sans";
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: normal;
+              }
+      
+          }
+      
+        }
+        
+        // ---------Toggle menu---
+      
+        
+      
+      
+      }
+}
+@media screen and  (max-width: 577px){
+    #intro{
+        padding-top: 20px;
+        .intro--top{
+          display: none;
+        }
+        // ---------Toggle menu---
+        .toggl-menu{
+            position: absolute;
+            top: 5px;
+            display: none;
+       
+            &--list{
+               display: flex;
+               flex-direction: column;
+       
+               li{
+                   width: 100%;
+                   padding: 10px 0px;
+                   text-align: center;
+                   cursor: pointer;
+                   &:hover{
+                       background: $border-color;
+                   }
+               }
+               li:nth-child(1){
+                   border-radius: 10px 10px 0px 0px;
+               }
+               li:nth-child(5){
+                   border-radius: 0px 0px 0px 0px ;
+               }
+       
+               li:nth-child(6){
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;
+                   gap: 15px;
+               }
+               li:nth-child(7){
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;
+                   gap: 15px;
+               }
+               li:nth-child(8){
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;
+                   gap: 15px;
+                   border-radius: 0px 0px 10px 10px ;
+               }
+            }
+         }
+      
+      }
+}
+@media screen and  (max-width: 376px){
+      
+}

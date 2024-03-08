@@ -1,42 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="apple-touch-icon" sizes="180x180" href="./public/favicon_io/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon_io/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="./public/favicon_io/favicon-16x16.png" />
-        <link rel="manifest" href="./public/favicon_io/site.webmanifest" />
-        <!-- main css -->
-        <link rel="stylesheet" href="./css/style.min.css" />
-        <title>Document</title>
-    </head>
-    <body>
-        <!-- -------- Header start  ------- -->
-        <header>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="./public/favicon_io/site.webmanifest" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- -------- Header start  ------- -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="navbar--top">
+                    <button id="navbar--menu" class="navbar--top--menu"><img src="./assets/imgs/menu.svg" alt="menu"></button>
+                    <img class="navbar--top--logo" src="./assets/imgs/logo.svg" alt="logo">
+                    <div class="navbar--top--searchwrap">
+                        <input type="text" placeholder="Я хочу найти...">
+                        <img src="./assets/imgs/search2.svg" alt="search">
+                    </div>
+                    <button id="popup-open-btn1" class="navbar--top--toglmenu">
+                        <img src="./assets/imgs/chat-bubble-question.svg" alt="chat-bubble-question">
+                        <span>Задать вопрос</span>
+                    </button>
+                    <div class="navbar--top--title">
+                        <h2>8 800 302-92-70</h2>
+                        <p>Бесплатный звонок юристу 24/7</p>
+                    </div>
+                    <div class="navbar--top--icons">
+                        <img src="./assets/imgs/search.svg" alt="search">
+                        <img src="./assets/imgs/user.svg" alt="user">
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- -------- Header end  ------- -->
+
+    <main>
+        <!-- Section intro start -->
+        <section id="intro">
             <div class="container">
-                <nav class="nav">
-                    <a href="" class="nav__logo">LOGO</a>
-                    <ul class="nav__list">
-                        <li class="nav__list--item"><a href="#" class="nav__list--item-link">Home</a></li>
-                        <li class="nav__list--item"><a href="#" class="nav__list--item-link">About</a></li>
-                        <li class="nav__list--item"><a href="#" class="nav__list--item-link">Service</a></li>
-                        <li class="nav__list--item"><a href="#" class="nav__list--item-link">Contact</a></li>
-                    </ul>
-                </nav>
+               <div class="intro--top">
+                  <div class="intro--top--btn">
+                        <button>
+                            <img src="./assets/imgs/phone.svg" alt="phone">
+                            <span>Заказать звонок</span>
+                        </button>
+                        <button>
+                            <img src="./assets/imgs/telegram.svg" alt="telegram">
+                            <span>Telegram</span>
+                        </button>
+                  </div>
+                  <ul class="intro--top--list">
+                    <li>Отзывы</li>
+                    <li>Вопросы</li>
+                    <li>Наши юристы</li>
+                    <li>Статьи</li>
+                    <li>Контакты</li>
+                  </ul>
+                  <p class="intro--top--enter">
+                      <img src="./assets/imgs/user.svg" alt="user">
+                      <span>Вход / Регистрация</span>
+                  </p>
+               </div>
+                <!-- Toggle menyu start -->
+               <div id="toggl-menu-wrap" class="toggl-menu ">
+                <ul class="toggl-menu--list">
+                    <li>Отзывы</li>
+                    <li>Вопросы</li>
+                    <li>Наши юристы</li>
+                    <li>Статьи</li>
+                    <li>Контакты</li>
+                    <li>
+                        <img src="./assets/imgs/user.svg" alt="user">
+                        <span>Вход / Регистрация</span>
+                    </li>
+                    <li>
+                        <img src="./assets/imgs/phone.svg" alt="phone">
+                        <span>Заказать звонок</span>
+                    </li>
+                    <li>
+                        <img src="./assets/imgs/telegram.svg" alt="telegram">
+                        <span>Telegram</span>
+                    </li>
+                </ul>
+               </div>
+               <!-- Toggle menyu end -->
             </div>
-        </header>
+        </section>
+        <!-- Section intro end -->
 
-        <!-- -------- Header end  ------- -->
-
-        <main>
-            <!-- sections -->
-        </main>
-
-        <footer>
+        <!-- second section start -->
+        <section id="second-section">
             <div class="container">
-                <p>Site footer</p>
+                <p>Главная  /  Горячая линия</p>
+                <div class="wrapper">
+                    <div class="second--title">
+                        <h1>Горячая линия по оказанию юридической помощи онлайн</h1>
+                        <p>Профессиональная помощь доступна круглосуточно – заявки обрабатываются в любое время дня и ночи. Обращаясь к специалистам «100 Юристов», вы можете рассчитывать на прозрачные, понятные условия сотрудничества</p>
+                        <div class="second--title--cantent">
+                            <button id="popup-open-btn2">Задать вопрос юристу</button>
+        
+                            <p>
+                                <span>8 800 302-92-70</span>
+                                <span>Бесплатный звонок юристу 24/7</span>
+                            </p>
+                        </div>
+                        <ul class="second--title--list">
+                            <li>
+                                <img src="./assets/imgs/clock.svg" alt="clock">
+                                <p>Круглосуточно</p>
+                            </li>
+                            <li>
+                                <img src="./assets/imgs/money-square.svg" alt="money-square">
+                                <p>Быстро</p>
+                            </li>
+                            <li>
+                                <img src="./assets/imgs/lock.svg" alt="lock">
+                                <p>Конфиденциально</p>
+                            </li>
+                            <li>
+                                <img src="./assets/imgs/flash.svg" alt="flash">
+                                <p>Бесплатно</p>
+                            </li>
+                        </ul>
+                    </div> 
+                    <div class="second--img">
+                       <img src="./assets/imgs/Frame.png" alt="Frame">
+                    </div>
+                </div>
+               
+               <!-- POPUP MENU 1 START -->
+               <div class="popup-menu--wrapper popup-menu--wrapper--close">
+                <div class="popup-menu">
+                    <div class="popup-menu-img">
+                       <img src="./assets/imgs/Frame2.png" alt="Frame2">
+                       <img src="./assets/imgs/Frame3.png" alt="Frame3">
+                    </div>
+                    <div class="popup-menu--title">
+                        <h1>Бесплатная юридическая консультация по телефону</h1>
+                        <div class="popup-menu--title--icon">
+                            <img src="./assets/imgs/FrameGrup.svg" alt="FrameGrup">
+                            <p>64 юриста сейчас онлайн</p>
+                        </div>
+                        <form action="#" id="popup-form" class="popup-menu--title--form">
+                            <label for="user-tel">
+                                <p>Номер телефона</p>
+                                <input type="tel"  id="user-tel" placeholder="+7 963 335-87-52">
+                            </label>
+                            <label for="user-name">
+                                <p>Ваше имя</p>
+                                <input type="text"  id="user-name" placeholder="Александр">
+                            </label>
+                            <button type="submit">
+                                Отправить
+                            </button>
+                        </form>
+                        <p>
+                            Отправляя вопрос, вы соглашаетесь с условиями Пользовательского соглашения
+                        </p>
+                        <button id="popup-close-btn" class="close_thick">
+                            <img src="./assets/imgs/close_thick.svg" alt="close_thick">
+                        </button>
+                    </div>
+                </div>
+               </div>
+               <!-- POPUP MENU 1 END -->
+
+
+               <!-- POPUP MENU 2 START -->
+               <div  class="popup-menu2--wrapper popup-menu--wrapper--close">
+                    <div class="popup-menu2">
+                       <img src="./assets/imgs/pitichka.svg" alt="icon">
+                       <h2>Спасибо, ваша заявка принята</h2>
+                       <p>Мы свяжемся с вами в течение х минут</p>
+                       <button id="popup-menu2--wrapper--close--btn">Закрыть окно</button>
+                       <button id="popup-menu2--wrapper--close--btn2"><img src="./assets/imgs/close_thick.svg" alt="close_thick"></button>
+                    </div>
+               </div>
+               <!-- POPUP MENU 2 END -->
             </div>
-        </footer>
-    </body>
+        </section>
+        <!-- second section end -->
+
+    </main>
+
+    <footer>
+        <div class="container">
+        </div>
+    </footer>
+</body>
+<script src="./index.js"></script>
 </html>

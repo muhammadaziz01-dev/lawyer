@@ -1,8 +1,14 @@
 //  for extends 
 
-%extandName{
-    background: red;
-    color:white;
+%buttonStyle{
+    background: $green-color;
+    color:#FFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: all .2s linear;
+    border: none;
+    cursor: pointer;
+    
 }
 
 
