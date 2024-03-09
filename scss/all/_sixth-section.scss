@@ -1,0 +1,140 @@
+#sixth-section{
+   width: 100%;
+   padding-bottom: 80px; 
+ 
+   .sixth--wrapper{
+
+    h2{
+        color: $text-color;
+        font-family: "Open Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.96px;
+        margin-bottom: 29px;
+    }
+
+    &--cardwrap{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+
+        &--card{
+            padding: 20px;
+            border-radius: 20px;
+            border: 1px solid $border-color;
+            min-height: 257px;
+
+            h3{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+
+                span{
+                    color: $text-color;
+                    font-family: "Open Sans";
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    padding-bottom: 3px;
+                    border-bottom: 2px solid $green-color;
+                }
+            }
+
+            p{
+                color: $text-color;
+                font-family: "Open Sans";
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+                margin-top: 10px;
+            }
+        }
+    }
+
+   }
+ 
+}
+
+
+
+/////  RESPONSIV ------------------
+
+@media screen and  (max-width: 770px){
+    #sixth-section{
+        width: 100%;
+        padding-bottom: 60px; 
+     }
+}
+@media screen and  (max-width: 577px){
+    #sixth-section{
+        width: 100%;
+        padding-bottom: 40px; 
+      
+        .sixth--wrapper{
+     
+         h2{
+             color: $text-color;
+             font-family: "Open Sans";
+             font-size: 32px;
+             font-style: normal;
+             font-weight: 700;
+             line-height: normal;
+             letter-spacing: -0.96px;
+             margin-bottom: 29px;
+         }
+     
+         &--cardwrap{
+             display: grid;
+             grid-template-columns: repeat(8, 1fr);
+             column-gap: 20px;
+             row-gap: 20px;
+             overflow-x: scroll;
+     
+             &--card{
+                 width: 319px;
+                 padding: 20px;
+                 border-radius: 20px;
+                 border: 1px solid $border-color;
+                 min-height: 257px;
+     
+                 h3{
+                     display: flex;
+                     align-items: center;
+                     gap: 15px;
+     
+                     span{
+                         color: $text-color;
+                         font-family: "Open Sans";
+                         font-size: 14px;
+                         font-style: normal;
+                         font-weight: 600;
+                         line-height: normal;
+                         padding-bottom: 3px;
+                         border-bottom: 2px solid $green-color;
+                     }
+                 }
+     
+                 p{
+                     color: $text-color;
+                     font-family: "Open Sans";
+                     font-size: 12px;
+                     font-style: normal;
+                     font-weight: 400;
+                     line-height: 150%;
+                     margin-top: 10px;
+                 }
+             }
+         }
+     
+        }
+      
+     }
+}
+@media screen and  (max-width: 376px){
+      
+}

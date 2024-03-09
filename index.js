@@ -24,6 +24,14 @@ let poppupWrap2 = document.querySelector('.popup-menu2--wrapper');
 let popupMenu2CloseBtn1 = document.querySelector('#popup-menu2--wrapper--close--btn');
 let popupMenu2CloseBtn2 = document.querySelector('#popup-menu2--wrapper--close--btn2');
 
+//---Form user tel nomer 
+
+let formUserTel = document.querySelector('#form-tel2');
+let inputUserTel = document.querySelector('#user-tel2');
+
+
+let formUserTel2 = document.querySelector('#form-tel3');
+let inputUserTel2 = document.querySelector('#user-tel3');
 
 // -------------------------FUNCSIYALAR---------
 
@@ -78,6 +86,34 @@ popupMenu2CloseBtn2.addEventListener('click', ()=>{
     poppupWrap2.classList.toggle('popup-menu--wrapper--close')
 });
 //----------------------------------------------------------------
+
+
+
+
+
+
+//-----Form user tel ------------------------------
+formUserTel.addEventListener('submit' ,(e)=>{
+    e.preventDefault()
+    if(inputUserTel.value.trim().length==0){
+        alert("janob formani toliq toldirin yoli menuni yopihlik uchun (X) ni bosing");
+    }else{
+        poppupWrap2.classList.toggle('popup-menu--wrapper--close')
+    }
+});
+//-------------------------------------------------
+
+
+//-----Form user tel 2 ------------------------------
+formUserTel2.addEventListener('submit' ,(e)=>{
+    e.preventDefault()
+    if(inputUserTel2.value.trim().length==0){
+        alert("janob formani toliq toldirin yoli menuni yopihlik uchun (X) ni bosing");
+    }else{
+        poppupWrap2.classList.toggle('popup-menu--wrapper--close')
+    }
+});
+//-------------------------------------------------
 
 
 

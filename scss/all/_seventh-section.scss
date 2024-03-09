@@ -1,0 +1,403 @@
+#seventh-section{
+    width: 100%;
+    padding-bottom: 80px;
+
+    .seventh--wrap{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        padding: 30px 0px 47px;
+
+        &--top{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            border-radius: 20px;
+            background: $bg-serch;
+            overflow: hidden;
+
+            h2{
+                color: $text-color;
+                font-family: "Open Sans";
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: -0.96px;
+            }
+
+            div{
+
+                form{
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    margin-bottom: 15px;
+    
+                    label{
+                        display: block;
+                        width: 205px;
+                        height: 56px;
+                        border: 1px solid $border-color;
+                        border-radius: 10px;
+                        position: relative;
+    
+                        input{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 10px;
+                            border: none;
+                            outline: none;
+                            padding: 27px 16px 8px 16px;
+    
+                            &::placeholder{
+                                color: $text-color;
+                            }
+                        }
+    
+                        p{
+                            color: $text-color2;
+                            position: absolute;
+                            left: 16px;
+                            top: 7px;
+                        }
+                    }
+    
+                    button{
+                        @extend %buttonStyle;
+                        padding: 17px 36px;
+                        border-radius: 10px;
+                        
+    
+                        &:hover{
+                            background: $border-color; 
+                            transition: all .2s linear;
+
+                        }
+    
+                        &:active{
+                            background: $green-color;
+                            border: 1px solid #FFF;
+                        }
+                    }
+                }
+
+                p{
+                    color:  rgba(47, 43, 67, 0.40);
+                    font-family: "Open Sans";
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+
+            img{
+                position: relative;
+                top: 10px;
+            }
+        }
+
+        &--botton{
+            h2{
+                color: $text-color;
+                font-family: "Open Sans";
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: -0.96px;
+            }
+
+            p{
+                color: $text-color;
+                font-family: "Open Sans";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 160%;
+                padding-top: 10px; 
+            }
+
+            button{
+                @extend %buttonStyle;
+                width: 100%;
+                background: $bg-serch;
+                color: $green-color;
+                padding: 16px;
+                margin-top: 30px;
+
+                &:hover{
+                    background: #c5cac9; 
+                    transition: all .2s linear;
+                }
+
+                &:active{
+                    background: $bg-serch;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+//------------RESPONSIV--------
+
+@media screen and  (max-width: 770px){
+    #seventh-section{
+        width: 100%;
+        padding-bottom: 60px;
+    
+        .seventh--wrap{
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+            padding: 30px 0px 47px;
+    
+            &--top{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                border-radius: 20px;
+                background: $bg-serch;
+                overflow: hidden;
+    
+                h2{
+                    display: none;
+                    color: $text-color;
+                    font-family: "Open Sans";
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: -0.96px;
+                }
+    
+                div{
+    
+                    form{
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
+                        margin-bottom: 15px;
+        
+                        label{
+                            display: block;
+                            width: 205px;
+                            height: 56px;
+                            border: 1px solid $border-color;
+                            border-radius: 10px;
+                            position: relative;
+        
+                            input{
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 10px;
+                                border: none;
+                                outline: none;
+                                padding: 27px 16px 8px 16px;
+        
+                                &::placeholder{
+                                    color: $text-color;
+                                }
+                            }
+        
+                            p{
+                                color: $text-color2;
+                                position: absolute;
+                                left: 16px;
+                                top: 7px;
+                            }
+                        }
+        
+                        button{
+                            @extend %buttonStyle;
+                            padding: 17px 36px;
+                            border-radius: 10px;
+                            
+        
+                            &:hover{
+                                background: $border-color; 
+                                transition: all .2s linear;
+    
+                            }
+        
+                            &:active{
+                                background: $green-color;
+                                border: 1px solid #FFF;
+                            }
+                        }
+                    }
+    
+                    p{
+                        color:  rgba(47, 43, 67, 0.40);
+                        font-family: "Open Sans";
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+    
+                img{
+                    position: relative;
+                    top: 10px;
+                }
+            }
+    
+            &--botton{
+                h2{
+                    color: $text-color;
+                    font-family: "Open Sans";
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: -0.96px;
+                }
+    
+                p{
+                    color: $text-color;
+                    font-family: "Open Sans";
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 160%;
+                    padding-top: 10px; 
+                }
+    
+                button{
+                    @extend %buttonStyle;
+                    width: 100%;
+                    background: $bg-serch;
+                    color: $green-color;
+                    padding: 16px;
+                    margin-top: 30px;
+    
+                    &:hover{
+                        background: #c5cac9; 
+                        transition: all .2s linear;
+                    }
+    
+                    &:active{
+                        background: $bg-serch;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and  (max-width: 577px){
+    #seventh-section{
+        width: 100%;
+        padding-bottom: 40px;
+    
+        .seventh--wrap{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            padding: 30px 0px 47px;
+    
+            &--top{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: space-around;
+                border-radius: 20px;
+                padding: 20px 20px 0px 20px;
+                background: $bg-serch;
+                overflow: hidden;
+    
+                h2{
+                    display: block;
+                    font-size: 24px;
+                }
+    
+                div{
+                    width: 100%;
+                    form{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        gap: 15px;
+                        margin-bottom: 15px;
+                        margin-top: 15px;
+        
+                        label{
+                            display: block;
+                            width: 100%;
+                            height: 56px;
+                            border: 1px solid $border-color;
+                            border-radius: 10px;
+                            position: relative;
+        
+                            input{
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 10px;
+                                border: none;
+                                outline: none;
+                                padding: 27px 16px 8px 16px;
+        
+                                &::placeholder{
+                                    color: $text-color;
+                                }
+                            }
+        
+                            p{
+                                color: $text-color2;
+                                position: absolute;
+                                left: 16px;
+                                top: 7px;
+                            }
+                        }
+        
+                        button{
+                            width: 100%;
+                            padding: 17px 36px;
+                            border-radius: 10px;
+                            
+                        }
+                    }
+    
+                    p{
+                        color:  rgba(47, 43, 67, 0.40);
+                        font-family: "Open Sans";
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+    
+                img{
+                    display: block;
+                    width: 237px;
+                    position: relative;
+                    left: 40px;
+                    bottom: 40px;
+                }
+            }
+    
+            &--botton{
+                h2{
+                    font-size: 20px;
+                }
+    
+                p{
+                    font-size: 14px;
+                }
+    
+                button{
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+@media screen and  (max-width: 376px){
+      
+}

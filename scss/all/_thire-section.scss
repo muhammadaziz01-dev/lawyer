@@ -1,0 +1,270 @@
+#third-section{
+    width: 100%;
+    padding-bottom: 96px;
+
+    .third--top{
+        h2{
+            color: $text-color;
+            font-family: "Open Sans";
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.96px;
+        }
+        p{
+            color: $text-color;
+            font-family: "Open Sans";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+            padding-top: 20px; 
+        }
+    }
+
+    .third--button{
+        padding-top: 80px;
+
+        h2{
+            color: $text-color;
+            font-family: "Open Sans";
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.96px;
+        }
+
+        p{
+            color: $text-color;
+            font-family: "Open Sans";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+            padding-top: 15px; 
+        }
+
+        &--cardwrap{
+            display: grid;
+            grid-template-columns: repeat(4,auto);
+            align-items: start;
+            justify-content: space-between;
+            margin-top: 30px;
+
+
+            &--card{
+                width: 270px;
+                // height: 180px;
+                padding: 20px;
+                border-radius: 20px;
+                border: 1px solid $border-color;
+
+                p{
+                    align-self: stretch;
+                    color: $text-color;
+                    font-family: "Open Sans";
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-bottom: 15px;
+                }
+
+                h3{
+                    color: $text-color;
+                    font-family: "Open Sans";
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    margin-bottom: -18px;
+                }
+
+                a{
+                    color: $green-color;
+                    display: block;
+                    font-family: "Open Sans";
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    margin-top: 35px;
+                }
+            }
+        }
+    }
+}
+
+
+
+// -----RESPONSIV ---------------
+
+@media screen and  (max-width: 770px){
+    #third-section{
+        width: 100%;
+        padding-bottom: 96px;
+    
+        .third--top{
+            h2{
+                color: $text-color;
+                font-family: "Open Sans";
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: -0.96px;
+            }
+            p{
+                color: $text-color;
+                font-family: "Open Sans";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 160%;
+                padding-top: 20px; 
+            }
+        }
+    
+        .third--button{
+            padding-top: 80px;
+    
+            h2{
+                color: $text-color;
+                font-family: "Open Sans";
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: -0.96px;
+            }
+    
+            p{
+                color: $text-color;
+                font-family: "Open Sans";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 160%;
+                padding-top: 15px; 
+            }
+    
+            &--cardwrap{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                align-items: center;
+                row-gap: 20px;
+                justify-content: space-between;
+                margin-top: 30px;
+    
+    
+                &--card{
+                    width: 350px;
+                    // height: 180px;
+                    padding: 20px;
+                    border-radius: 20px;
+                    border: 1px solid $border-color;
+    
+                    p{
+                        align-self: stretch;
+                        color: $text-color;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-bottom: 15px;
+                    }
+    
+                    h3{
+                        color: $text-color;
+                        font-family: "Open Sans";
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        margin-bottom: -18px;
+                    }
+    
+                    a{
+                        color: $green-color;
+                        display: block;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        margin-top: 35px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and  (max-width: 577px){
+    #third-section{
+        width: 100%;
+        padding-bottom: 40px;
+    
+        .third--top{
+            h2{
+                font-size: 20px;
+                letter-spacing: -0.6px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+    
+        .third--button{
+            padding-top: 40px;
+    
+            h2{
+                font-size: 20px;
+                letter-spacing: -0.6px;
+            }
+    
+            p{
+                font-size: 14px;
+            }
+    
+            &--cardwrap{
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+                align-items: center;
+                row-gap: 18px;
+                justify-content: space-between;
+                margin-top: 20px;
+    
+    
+                &--card{
+                    width: 175px;
+                    height: 191px;
+                    padding: 20px;
+                    border-radius: 20px;
+                    border: 1px solid $border-color;
+                    position: relative;
+    
+                    p{
+                        font-size: 14px;
+                    }
+    
+                    h3{
+                        font-size: 18px;
+                    }
+    
+                    a{
+                        
+                        margin-top: 0px;
+                        position: absolute;
+                        bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and  (max-width: 376px){
+      
+}
