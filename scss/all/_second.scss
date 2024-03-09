@@ -210,7 +210,8 @@
                         }
                     }
 
-                    p{
+                    span{
+                        color: $text-color2;
                         position: absolute;
                         left: 16px;
                         top: 7px;
@@ -487,7 +488,7 @@
                       }
                   }
 
-                  p{
+                  span{
                       position: absolute;
                       left: 16px;
                       top: 7px;
@@ -783,7 +784,7 @@
                               }
                           }
         
-                          p{
+                          span{
                               position: absolute;
                               left: 16px;
                               top: 7px;

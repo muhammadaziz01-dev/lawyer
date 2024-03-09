@@ -33,6 +33,13 @@ let inputUserTel = document.querySelector('#user-tel2');
 let formUserTel2 = document.querySelector('#form-tel3');
 let inputUserTel2 = document.querySelector('#user-tel3');
 
+
+//--carusel---
+
+let  caruselWrap = document.querySelector(".carusel-wrap--cardwrap");
+
+let caruselCards =document.querySelectorAll('.carusel-wrap--cardwrap--card');
+
 // -------------------------FUNCSIYALAR---------
 
 
@@ -119,3 +126,29 @@ formUserTel2.addEventListener('submit' ,(e)=>{
 
 
 
+
+
+//---CARUSEL -----------------
+
+let indx = 0;
+
+function caruseRight() {
+    indx ++ ;
+    if(indx > caruselCards.length-2){
+        indx = 0;
+    }else if(indx < 0){
+        indx = caruselCards.length-2;
+    }
+    caruselWrap.style.transform = `translateX(${-indx * 345}px)`;
+}
+
+
+function caruselLeft() {
+    indx -- ;
+    if(indx > caruselCards.length-2){
+        indx = 0;
+    }else if(indx < 0){
+        indx = caruselCards.length-2;
+    }
+    caruselWrap.style.transform = `translateX(${-indx * 345}px)`;
+}

@@ -1,4 +1,161 @@
 footer{
     width: 100%;
-    // codes
+    padding-bottom: 80px;
+
+    .footer--wrapper{
+
+        h2{
+            color: $text-color;
+            font-family: "Open Sans";
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.96px;
+            margin-bottom: 40px;
+        }
+
+        ul{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            row-gap: 40px;
+            column-gap: 20px;
+
+            li{
+
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                gap: 10px;
+
+                h3{
+                    color: $text-color;
+                    font-family: "Open Sans";
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    margin-bottom: 5px;
+                }
+
+                p{
+                    color: $text-color;
+                    font-family: "Open Sans";
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}
+
+
+//----RESPONSIV----
+
+@media screen and  (max-width: 770px){
+    footer{
+        width: 100%;
+        padding-bottom: 60px;
+    
+        .footer--wrapper{
+    
+            h2{
+                color: $text-color;
+                font-family: "Open Sans";
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: -0.96px;
+                margin-bottom: 30px;
+            }
+    
+            ul{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                row-gap: 40px;
+                column-gap: 20px;
+    
+                li{
+    
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    gap: 10px;
+    
+                    h3{
+                        color: $text-color;
+                        font-family: "Open Sans";
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        margin-bottom: 5px;
+                    }
+    
+                    p{
+                        color: $text-color;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and  (max-width: 577px){
+    footer{
+        width: 100%;
+        padding-bottom: 40px;
+    
+        .footer--wrapper{
+    
+            h2{
+                font-size: 20px;
+            }
+    
+            ul{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                row-gap: 20px;
+                column-gap: 10px;
+    
+                li{
+    
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    gap: 5px;
+    
+                    h3{
+                        color: $text-color;
+                        font-family: "Open Sans";
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        margin-bottom: 5px;
+                    }
+    
+                    p{
+                        color: $text-color;
+                        font-family: "Open Sans";
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and  (max-width: 376px){
+      
 }

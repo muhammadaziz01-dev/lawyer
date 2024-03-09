@@ -313,6 +313,10 @@ template {
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Open Sans";
+}
+
 ul {
   list-style: none;
 }
@@ -325,28 +329,103 @@ a {
   width: 0;
 }
 
+/* open-sans-300 - cyrillic_latin */
 @font-face {
-  font-display: swap;
-  font-family: "Open Sans", sans-serif;
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/open-sans-v40-cyrillic_latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-300italic - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/open-sans-v40-cyrillic_latin-300italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("../assets/fonts/OpenSans_Condensed-Regular.ttf") format("woff2");
+  src: url("../fonts/open-sans-v40-cyrillic_latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+/* open-sans-italic - cyrillic_latin */
 @font-face {
-  font-display: swap;
-  font-family: "Open Sans", sans-serif;
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v40-cyrillic_latin-italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/open-sans-v40-cyrillic_latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-500italic - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/open-sans-v40-cyrillic_latin-500italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-600 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  src: url("../assets/fonts/OpenSans-SemiBold.ttf") format("woff2");
+  src: url("../fonts/open-sans-v40-cyrillic_latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+/* open-sans-600italic - cyrillic_latin */
 @font-face {
-  font-display: swap;
-  font-family: "Open Sans", sans-serif;
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/open-sans-v40-cyrillic_latin-600italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("../assets/fonts/OpenSans_Condensed-Bold.ttf") format("woff2");
+  src: url("../fonts/open-sans-v40-cyrillic_latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-#seventh-section .seventh--wrap--botton button, #seventh-section .seventh--wrap--top div form button, #fifth-section .fifth-wrapper--botton--right form button, #second-section .popup-menu2--wrapper .popup-menu2 button:nth-child(4), #second-section .popup-menu--wrapper .popup-menu--title--form button, #second-section .wrapper .second--title--cantent button, #intro .intro--top--btn button, header .navbar--top--toglmenu {
+/* open-sans-700italic - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/open-sans-v40-cyrillic_latin-700italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-800 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/open-sans-v40-cyrillic_latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-800italic - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 800;
+  src: url("../fonts/open-sans-v40-cyrillic_latin-800italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+#ninth-section .ninth--wrapper--right form div button, #ninth-section .ninth--wrapper--left button, #seventh-section .seventh--wrap--botton button, #seventh-section .seventh--wrap--top div form button, #fifth-section .fifth-wrapper--botton--right form button, #second-section .popup-menu2--wrapper .popup-menu2 button:nth-child(4), #second-section .popup-menu--wrapper .popup-menu--title--form button, #second-section .wrapper .second--title--cantent button, #intro .intro--top--btn button, header .navbar--top--toglmenu {
   background: #33836E;
   color: #FFF;
   border-radius: 5px;
@@ -511,8 +590,131 @@ main {
 
 footer {
   width: 100%;
+  padding-bottom: 80px;
+}
+footer .footer--wrapper h2 {
+  color: #140A32;
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  margin-bottom: 40px;
+}
+footer .footer--wrapper ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 40px;
+  column-gap: 20px;
+}
+footer .footer--wrapper ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+footer .footer--wrapper ul li h3 {
+  color: #140A32;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+footer .footer--wrapper ul li p {
+  color: #140A32;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
+@media screen and (max-width: 770px) {
+  footer {
+    width: 100%;
+    padding-bottom: 60px;
+  }
+  footer .footer--wrapper h2 {
+    color: #140A32;
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.96px;
+    margin-bottom: 30px;
+  }
+  footer .footer--wrapper ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    column-gap: 20px;
+  }
+  footer .footer--wrapper ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  footer .footer--wrapper ul li h3 {
+    color: #140A32;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+  }
+  footer .footer--wrapper ul li p {
+    color: #140A32;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+@media screen and (max-width: 577px) {
+  footer {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  footer .footer--wrapper h2 {
+    font-size: 20px;
+  }
+  footer .footer--wrapper ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+  }
+  footer .footer--wrapper ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+  }
+  footer .footer--wrapper ul li h3 {
+    color: #140A32;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+  }
+  footer .footer--wrapper ul li p {
+    color: #140A32;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
 #intro {
   width: 100%;
   padding-bottom: 40px;
@@ -899,7 +1101,8 @@ footer {
 #second-section .popup-menu--wrapper .popup-menu--title--form label input::placeholder {
   color: #140A32;
 }
-#second-section .popup-menu--wrapper .popup-menu--title--form label p {
+#second-section .popup-menu--wrapper .popup-menu--title--form label span {
+  color: rgba(47, 43, 67, 0.5);
   position: absolute;
   left: 16px;
   top: 7px;
@@ -1122,7 +1325,7 @@ footer {
   #second-section .popup-menu--wrapper .popup-menu--title--form label input::placeholder {
     color: #140A32;
   }
-  #second-section .popup-menu--wrapper .popup-menu--title--form label p {
+  #second-section .popup-menu--wrapper .popup-menu--title--form label span {
     position: absolute;
     left: 16px;
     top: 7px;
@@ -1360,7 +1563,7 @@ footer {
   #second-section .popup-menu--wrapper .popup-menu--title--form label input::placeholder {
     color: #140A32;
   }
-  #second-section .popup-menu--wrapper .popup-menu--title--form label p {
+  #second-section .popup-menu--wrapper .popup-menu--title--form label span {
     position: absolute;
     left: 16px;
     top: 7px;
@@ -2132,7 +2335,7 @@ footer {
 #fifth-section .fifth-wrapper--botton--right form label input::placeholder {
   color: #140A32;
 }
-#fifth-section .fifth-wrapper--botton--right form label p {
+#fifth-section .fifth-wrapper--botton--right form label span {
   color: rgba(47, 43, 67, 0.5);
   position: absolute;
   left: 16px;
@@ -2287,7 +2490,7 @@ footer {
   #fifth-section .fifth-wrapper--botton--right form label input::placeholder {
     color: #140A32;
   }
-  #fifth-section .fifth-wrapper--botton--right form label p {
+  #fifth-section .fifth-wrapper--botton--right form label span {
     color: rgba(47, 43, 67, 0.5);
     position: absolute;
     left: 16px;
@@ -2574,7 +2777,7 @@ footer {
 #seventh-section .seventh--wrap--top div form label input::placeholder {
   color: #140A32;
 }
-#seventh-section .seventh--wrap--top div form label p {
+#seventh-section .seventh--wrap--top div form label span {
   color: rgba(47, 43, 67, 0.5);
   position: absolute;
   left: 16px;
@@ -2691,7 +2894,7 @@ footer {
   #seventh-section .seventh--wrap--top div form label input::placeholder {
     color: #140A32;
   }
-  #seventh-section .seventh--wrap--top div form label p {
+  #seventh-section .seventh--wrap--top div form label span {
     color: rgba(47, 43, 67, 0.5);
     position: absolute;
     left: 16px;
@@ -2809,7 +3012,7 @@ footer {
   #seventh-section .seventh--wrap--top div form label input::placeholder {
     color: #140A32;
   }
-  #seventh-section .seventh--wrap--top div form label p {
+  #seventh-section .seventh--wrap--top div form label span {
     color: rgba(47, 43, 67, 0.5);
     position: absolute;
     left: 16px;
@@ -2843,5 +3046,892 @@ footer {
   }
   #seventh-section .seventh--wrap--botton button {
     margin-top: 20px;
+  }
+}
+#eighth-section {
+  width: 100%;
+  padding-bottom: 80px;
+}
+#eighth-section h2 {
+  color: #140A32;
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  margin-bottom: 30px;
+}
+#eighth-section .carusel {
+  position: relative;
+}
+#eighth-section .carusel-wrap {
+  overflow: hidden;
+}
+#eighth-section .carusel-wrap--cardwrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.3s linear;
+  transform: translateX(0);
+}
+#eighth-section .carusel-wrap--cardwrap--card {
+  width: 335px;
+  height: 400px;
+  padding: 30px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid rgba(47, 43, 67, 0.15);
+  position: relative;
+}
+#eighth-section .carusel-wrap--cardwrap--card div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+#eighth-section .carusel-wrap--cardwrap--card div span:nth-child(1) {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  padding: 13px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+  background: #115B82;
+}
+#eighth-section .carusel-wrap--cardwrap--card div h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+}
+#eighth-section .carusel-wrap--cardwrap--card div h3 strong {
+  color: #140A32;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#eighth-section .carusel-wrap--cardwrap--card div h3 span {
+  color: rgba(47, 43, 67, 0.5);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#eighth-section .carusel-wrap--cardwrap--card p {
+  color: #140A32;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 24px;
+}
+#eighth-section .carusel-wrap--cardwrap--card h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 12px;
+  position: absolute;
+  bottom: 0px;
+}
+#eighth-section .carusel-wrap--cardwrap--card h2 span {
+  color: rgba(47, 43, 67, 0.5);
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#eighth-section .carusel-wrap--cardwrap--card h2 strong {
+  color: #33836E;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  display: block;
+  padding-right: 15px;
+}
+#eighth-section .carusel button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: rgba(47, 43, 67, 0.15);
+  cursor: pointer;
+  padding: 14px;
+  border-radius: 50%;
+  z-index: 5;
+}
+#eighth-section .carusel button:nth-child(2) {
+  position: absolute;
+  left: -72px;
+  top: 45%;
+}
+#eighth-section .carusel button:nth-child(3) {
+  position: absolute;
+  right: -62px;
+  top: 45%;
+}
+
+@media screen and (max-width: 770px) {
+  #eighth-section {
+    width: 100%;
+    padding-bottom: 60px;
+  }
+  #eighth-section .carusel {
+    position: relative;
+  }
+  #eighth-section .carusel-wrap {
+    overflow: hidden;
+  }
+  #eighth-section .carusel-wrap--cardwrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: all 0.3s linear;
+    transform: translateX(0);
+  }
+  #eighth-section .carusel-wrap--cardwrap--card {
+    width: 335px;
+    height: 400px;
+    padding: 30px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid rgba(47, 43, 67, 0.15);
+    position: relative;
+  }
+  #eighth-section .carusel-wrap--cardwrap--card div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  #eighth-section .carusel-wrap--cardwrap--card div span:nth-child(1) {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    background: #115B82;
+  }
+  #eighth-section .carusel-wrap--cardwrap--card div h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+  }
+  #eighth-section .carusel-wrap--cardwrap--card div h3 strong {
+    color: #140A32;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #eighth-section .carusel-wrap--cardwrap--card div h3 span {
+    color: rgba(47, 43, 67, 0.5);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  #eighth-section .carusel-wrap--cardwrap--card p {
+    color: #140A32;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 24px;
+  }
+  #eighth-section .carusel-wrap--cardwrap--card h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+    position: absolute;
+    bottom: 0px;
+  }
+  #eighth-section .carusel-wrap--cardwrap--card h2 span {
+    color: rgba(47, 43, 67, 0.5);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  #eighth-section .carusel-wrap--cardwrap--card h2 strong {
+    color: #33836E;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    display: block;
+    padding-right: 15px;
+  }
+  #eighth-section .carusel button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: rgba(47, 43, 67, 0.15);
+    cursor: pointer;
+    padding: 14px;
+    border-radius: 50%;
+    z-index: 5;
+  }
+  #eighth-section .carusel button:nth-child(2) {
+    position: absolute;
+    left: 0px;
+    top: 45%;
+  }
+  #eighth-section .carusel button:nth-child(3) {
+    position: absolute;
+    right: 0px;
+    top: 45%;
+  }
+}
+@media screen and (max-width: 577px) {
+  #eighth-section {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+}
+#ninth-section {
+  width: 100%;
+  padding-bottom: 80px;
+}
+#ninth-section h2 {
+  color: #140A32;
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  margin-bottom: 30px;
+}
+#ninth-section .ninth--wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#ninth-section .ninth--wrapper--left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+}
+#ninth-section .ninth--wrapper--left--card {
+  width: 463px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid rgba(47, 43, 67, 0.15);
+}
+#ninth-section .ninth--wrapper--left--card div {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 5px;
+}
+#ninth-section .ninth--wrapper--left--card div h3 {
+  color: #140A32;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#ninth-section .ninth--wrapper--left--card div h2 {
+  color: #140A32;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+#ninth-section .ninth--wrapper--left--card div p {
+  color: rgba(47, 43, 67, 0.5);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#ninth-section .ninth--wrapper--left button {
+  width: 100%;
+  background: #E0ECE9;
+  color: #33836E;
+  border-radius: 10px;
+  padding: 16px 0px;
+}
+#ninth-section .ninth--wrapper--left button:hover {
+  background: #bac2c0;
+  transition: all 0.2s linear;
+}
+#ninth-section .ninth--wrapper--left button:active {
+  background: #E0ECE9;
+}
+#ninth-section .ninth--wrapper--right {
+  padding: 40px;
+  border-radius: 20px;
+  background: #33836E;
+  position: relative;
+}
+#ninth-section .ninth--wrapper--right h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+#ninth-section .ninth--wrapper--right h2 strong {
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+#ninth-section .ninth--wrapper--right h2 span {
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#ninth-section .ninth--wrapper--right form input:nth-child(1) {
+  width: 100%;
+  height: 213px;
+  padding: 12px 16px 8px 16px;
+  border-radius: 10px;
+  background: #FFF;
+  border: none;
+  outline: none;
+}
+#ninth-section .ninth--wrapper--right form input:nth-child(1)::placeholder {
+  color: rgba(47, 43, 67, 0.5);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  top: -80px;
+}
+#ninth-section .ninth--wrapper--right form div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+#ninth-section .ninth--wrapper--right form div label {
+  display: block;
+  width: 205px;
+  height: 56px;
+  border: 1px solid rgba(47, 43, 67, 0.15);
+  border-radius: 10px;
+  position: relative;
+}
+#ninth-section .ninth--wrapper--right form div label input {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 27px 16px 8px 16px;
+}
+#ninth-section .ninth--wrapper--right form div label input::placeholder {
+  color: #140A32;
+}
+#ninth-section .ninth--wrapper--right form div label span {
+  color: rgba(47, 43, 67, 0.5);
+  position: absolute;
+  left: 16px;
+  top: 7px;
+}
+#ninth-section .ninth--wrapper--right form div button {
+  background: #140A32;
+  padding: 17px 24px 19px 24px;
+  border-radius: 10px;
+}
+#ninth-section .ninth--wrapper--right form div button:hover {
+  background: #4c1dd8;
+  transition: all 0.2s linear;
+}
+#ninth-section .ninth--wrapper--right form div button:active {
+  background: #140A32;
+}
+#ninth-section .ninth--wrapper--right form p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#ninth-section .ninth--wrapper--right div {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 10px;
+}
+#ninth-section .ninth--wrapper--right div p {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+}
+#ninth-section .ninth--wrapper--right div p strong {
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+#ninth-section .ninth--wrapper--right div p span {
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#ninth-section .ninth--wrapper--right p:nth-child(4) {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  padding: 5px 12px 6px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #FFF;
+}
+#ninth-section .ninth--wrapper--right p:nth-child(4) span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #33836E;
+}
+
+@media screen and (max-width: 770px) {
+  #ninth-section {
+    width: 100%;
+    padding-bottom: 60px;
+  }
+  #ninth-section h2 {
+    color: #140A32;
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.96px;
+    margin-bottom: 20px;
+  }
+  #ninth-section .ninth--wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+  #ninth-section .ninth--wrapper--left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+  }
+  #ninth-section .ninth--wrapper--left--card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid rgba(47, 43, 67, 0.15);
+  }
+  #ninth-section .ninth--wrapper--left--card div {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+  }
+  #ninth-section .ninth--wrapper--left--card div h3 {
+    color: #140A32;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #ninth-section .ninth--wrapper--left--card div h2 {
+    color: #140A32;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+  }
+  #ninth-section .ninth--wrapper--left--card div p {
+    color: rgba(47, 43, 67, 0.5);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  #ninth-section .ninth--wrapper--left button {
+    width: 100%;
+    background: #E0ECE9;
+    color: #33836E;
+    border-radius: 10px;
+    padding: 16px 0px;
+  }
+  #ninth-section .ninth--wrapper--left button:hover {
+    background: #bac2c0;
+    transition: all 0.2s linear;
+  }
+  #ninth-section .ninth--wrapper--left button:active {
+    background: #E0ECE9;
+  }
+  #ninth-section .ninth--wrapper--right {
+    width: 100%;
+    padding: 40px;
+    border-radius: 20px;
+    background: #33836E;
+  }
+  #ninth-section .ninth--wrapper--right h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  #ninth-section .ninth--wrapper--right h2 strong {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.96px;
+  }
+  #ninth-section .ninth--wrapper--right h2 span {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  #ninth-section .ninth--wrapper--right form input:nth-child(1) {
+    width: 100%;
+    height: 213px;
+    padding: 12px 16px 8px 16px;
+    border-radius: 10px;
+    background: #FFF;
+    border: none;
+    outline: none;
+  }
+  #ninth-section .ninth--wrapper--right form input:nth-child(1)::placeholder {
+    color: rgba(47, 43, 67, 0.5);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: -80px;
+  }
+  #ninth-section .ninth--wrapper--right form div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  #ninth-section .ninth--wrapper--right form div label {
+    display: block;
+    width: 205px;
+    height: 56px;
+    border: 1px solid rgba(47, 43, 67, 0.15);
+    border-radius: 10px;
+    position: relative;
+  }
+  #ninth-section .ninth--wrapper--right form div label input {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 27px 16px 8px 16px;
+  }
+  #ninth-section .ninth--wrapper--right form div label input::placeholder {
+    color: #140A32;
+  }
+  #ninth-section .ninth--wrapper--right form div label span {
+    color: rgba(47, 43, 67, 0.5);
+    position: absolute;
+    left: 16px;
+    top: 7px;
+  }
+  #ninth-section .ninth--wrapper--right form div button {
+    background: #140A32;
+    padding: 17px 24px 19px 24px;
+    border-radius: 10px;
+  }
+  #ninth-section .ninth--wrapper--right form div button:hover {
+    background: #4c1dd8;
+    transition: all 0.2s linear;
+  }
+  #ninth-section .ninth--wrapper--right form div button:active {
+    background: #140A32;
+  }
+  #ninth-section .ninth--wrapper--right form p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #ninth-section .ninth--wrapper--right div {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 10px;
+  }
+  #ninth-section .ninth--wrapper--right div p {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #ninth-section .ninth--wrapper--right div p strong {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.6px;
+  }
+  #ninth-section .ninth--wrapper--right div p span {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+@media screen and (max-width: 577px) {
+  #ninth-section {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  #ninth-section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  #ninth-section .ninth--wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+  }
+  #ninth-section .ninth--wrapper--left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+  }
+  #ninth-section .ninth--wrapper--left--card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid rgba(47, 43, 67, 0.15);
+  }
+  #ninth-section .ninth--wrapper--left--card img {
+    width: 50px;
+    height: 50px;
+  }
+  #ninth-section .ninth--wrapper--left--card div {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+  }
+  #ninth-section .ninth--wrapper--left--card div h3 {
+    color: #140A32;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #ninth-section .ninth--wrapper--left--card div h2 {
+    color: #140A32;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+  }
+  #ninth-section .ninth--wrapper--left--card div p {
+    color: rgba(47, 43, 67, 0.5);
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  #ninth-section .ninth--wrapper--left button {
+    width: 100%;
+    background: #E0ECE9;
+    color: #33836E;
+    border-radius: 10px;
+    padding: 16px 0px;
+  }
+  #ninth-section .ninth--wrapper--left button:hover {
+    background: #bac2c0;
+    transition: all 0.2s linear;
+  }
+  #ninth-section .ninth--wrapper--left button:active {
+    background: #E0ECE9;
+  }
+  #ninth-section .ninth--wrapper--right {
+    width: 100%;
+    padding: 60px 20px 20px 20px;
+    border-radius: 10px;
+    background: #33836E;
+  }
+  #ninth-section .ninth--wrapper--right h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  #ninth-section .ninth--wrapper--right h2 strong {
+    font-size: 20px;
+  }
+  #ninth-section .ninth--wrapper--right h2 span {
+    font-size: 12px;
+  }
+  #ninth-section .ninth--wrapper--right form input:nth-child(1) {
+    width: 100%;
+    height: 213px;
+    padding: 12px 16px 8px 16px;
+    border-radius: 10px;
+    background: #FFF;
+    border: none;
+    outline: none;
+  }
+  #ninth-section .ninth--wrapper--right form input:nth-child(1)::placeholder {
+    color: rgba(47, 43, 67, 0.5);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: -80px;
+  }
+  #ninth-section .ninth--wrapper--right form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  #ninth-section .ninth--wrapper--right form div label {
+    display: block;
+    width: 100%;
+  }
+  #ninth-section .ninth--wrapper--right form div button {
+    width: 100%;
+  }
+  #ninth-section .ninth--wrapper--right form p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #ninth-section .ninth--wrapper--right div {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 10px;
+  }
+  #ninth-section .ninth--wrapper--right div p {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #ninth-section .ninth--wrapper--right div p strong {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.6px;
+  }
+  #ninth-section .ninth--wrapper--right div p span {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  #ninth-section .ninth--wrapper--right p:nth-child(4) {
+    width: 102px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    padding: 5px 12px 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+    background: #FFF;
+  }
+  #ninth-section .ninth--wrapper--right p:nth-child(4) span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #33836E;
   }
 }/*# sourceMappingURL=style.css.map */
