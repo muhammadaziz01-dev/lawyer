@@ -188,7 +188,12 @@
         }
         
         // ---------Toggle menu---
-      
+        .toggl-menu{
+            position: fixed;
+            z-index: 10;
+            top: 115px;
+            display: none;
+        } 
         
       
       
@@ -202,8 +207,9 @@
         }
         // ---------Toggle menu---
         .toggl-menu{
-            position: absolute;
-            top: 5px;
+            position: fixed;
+            z-index: 10;
+            top: 70px;
             display: none;
        
             &--list{

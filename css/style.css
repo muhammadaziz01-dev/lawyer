@@ -872,6 +872,12 @@ footer .footer--wrapper ul li p {
     font-weight: 400;
     line-height: normal;
   }
+  #intro .toggl-menu {
+    position: fixed;
+    z-index: 10;
+    top: 115px;
+    display: none;
+  }
 }
 @media screen and (max-width: 577px) {
   #intro {
@@ -881,8 +887,9 @@ footer .footer--wrapper ul li p {
     display: none;
   }
   #intro .toggl-menu {
-    position: absolute;
-    top: 5px;
+    position: fixed;
+    z-index: 10;
+    top: 70px;
     display: none;
   }
   #intro .toggl-menu--list {
@@ -1811,7 +1818,7 @@ footer .footer--wrapper ul li p {
   #third-section .third--button--cardwrap--card h3 {
     color: #140A32;
     font-family: "Open Sans";
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -1867,10 +1874,10 @@ footer .footer--wrapper ul li p {
     position: relative;
   }
   #third-section .third--button--cardwrap--card p {
-    font-size: 14px;
+    font-size: 16px;
   }
   #third-section .third--button--cardwrap--card h3 {
-    font-size: 18px;
+    font-size: 14px;
   }
   #third-section .third--button--cardwrap--card a {
     margin-top: 0px;
